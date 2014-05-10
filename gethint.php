@@ -50,12 +50,21 @@ switch ($q){
     case "14":{
         $q="学生攻略";
     }break;
+    case "15":{
+        $q="开端介绍";
+    }break;
+    case "16":{
+        $q="ETS授权开端";
+    }break;
+    case "17":{
+        $q="培训师介绍";
+    }break;
     default :{
     $q="Criterion";
     }
 }
 
-
+echo $q;
 
 @mysql_select_db($database) or die('can not find database!');
 
@@ -70,5 +79,6 @@ if(strlen($q)<=0){
 }
 $response=$row['content'];
 //output the response
+
 echo $response ;
 ?>

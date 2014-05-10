@@ -89,7 +89,13 @@ include_once '../login/checkA.php';
         <ul class="menu f_r">
             <li><a href="../login/loginout.php"><span>注销</span></a></li>
             <li><a href="javascript:changetext('0')"><span>联系</span></a></li>
-            <li><a href="javascript:changetext('1')"><span>关于</span></a></li>
+            <li><a href="javascript:changetext('1')"><span>关于我们</span></a>
+                <ul class="menu2">
+                    <li><a href="javascript:changetext('15')"><span>开端介绍</span></a></li>
+                    <li><a href="javascript:changetext('16')"><span>ETS授权开端</span></a></li>
+                    <li><a href="javascript:changetext('17')"><span>培训师介绍</span></a></li>
+                </ul>
+            </li>
             <li><a href="javascript:changetext('2')"><span>招聘精英</span></a></li>
             <li><a href="javascript:changetext('3')"><span>合作机构</span></a>
                 <ul class="menu2">

@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -87,11 +86,13 @@ $row = mysql_fetch_array($query);
                         <ul class="txt">
                             <li>电话：</li>
                             <li>8610-57257869</li>
-                            <li>86010-57257857</li>
+                            <li>010-57257857</li>
                             <li>4008733339</li>
-                            <li>联系人：武老师</li>
+                            <li>联系人：武老师 13911909159</li>
                             <li>E-mail：wujitao@cita-edu.com</li>
                             <li>QQ：283875303</li>
+                            <li><img src="images/cmd.jpg"></li>
+                            <li></li>
                         </ul>
                         <!--end text-->
 

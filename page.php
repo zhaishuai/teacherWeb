@@ -28,7 +28,9 @@
             title = str;
             //document.getElementById('imageview').src="images/"+str+".jpg";
             $(".p_banner").css("background","url(images/"+str+".jpg)");
-            if(title=='13'||title=='14'){
+            if(title=="15"||title=="16"||title=="17"){
+                document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('1')\">关于我们</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
+            }else if(title=='13'||title=='14'){
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('4')\">使用攻略</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }else if(title=='8'||title=='9'||title=='10'||title=='11'||title=='12'){
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('7')\">Criterion</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
@@ -45,6 +47,7 @@
             }
             var url="gethint.php"
             url=url+"?q="+str
+            alert(url);
             url=url+"&sid="+Math.random()
             xmlHttp.onreadystatechange=stateChanged
             xmlHttp.open("GET",url,true)
@@ -79,7 +82,13 @@
 
         <ul class="menu f_r">
             <li><a href="javascript:changetext('0')"><span>联系我们</span></a></li>
-            <li><a href="javascript:changetext('1')"><span>关于我们</span></a></li>
+            <li><a href="javascript:changetext('1')"><span>关于我们</span></a>
+                <ul class="menu2">
+                    <li><a href="javascript:changetext('15')"><span>开端介绍</span></a></li>
+                    <li><a href="javascript:changetext('16')"><span>ETS授权开端</span></a></li>
+                    <li><a href="javascript:changetext('17')"><span>培训师介绍</span></a></li>
+                </ul>
+            </li>
             <li><a href="javascript:changetext('2')"><span>招聘精英</span></a></li>
             <li><a href="page.php?i=3"><span>合作机构</span></a></li>
             <li><a href="javascript:changetext('4')" class="select"><span>使用攻略</span></a>
@@ -138,13 +147,12 @@
                         <ul class="txt">
                             <li>电话：</li>
                             <li>8610-57257869</li>
-                            <li>86010-57257857</li>
+                            <li>010-57257857</li>
                             <li>4008733339</li>
-                            <li>联系人：武老师</li>
+                            <li>联系人：武老师 13911909159</li>
                             <li>E-mail：wujitao@cita-edu.com</li>
                             <li>QQ：283875303</li>
                             <li><img src="images/cmd.jpg"></li>
-                            <li></li>
                             <li></li>
                         </ul>
                         <!--end text-->

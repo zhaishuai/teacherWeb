@@ -57,6 +57,16 @@ switch ($q){
     case "14":{
         $q="学生攻略";
     }break;
+    case "15":{
+        $q="开端介绍";
+    }break;
+    case "16":{
+        $q="ETS授权开端";
+    }break;
+    case "17":{
+        $q="培训师介绍";
+    }break;
+
     default :{
     $q="Criterion";
     }

@@ -99,6 +99,15 @@ function getTitle(num){
         case "14":{
             titleid="学生攻略";
         }break;
+        case "15":{
+            titleid="开端介绍";
+        }break;
+        case "16":{
+            titleid="ETS授权开端";
+        }break;
+        case "17":{
+            titleid="培训师介绍";
+        }break;
         default :{
             titleid="Criterion";
         }
