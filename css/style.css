@@ -1,0 +1,49 @@
+/* Custom Stylesheet */
+
+
+/* ALL DEMO */
+
+
+
+.m_bg #custom-nav {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+.m_bg #custom-nav.fixed {
+  top:0;
+  width: 100%;
+  margin-left: 0;
+}
+.m_bg #custom-nav ul {
+  text-align: center;
+    background:rgba(0,102,193,0.6);
+}
+.m_bg #custom-nav li{
+  display: inline-block;
+  float: none;
+}
+.m_bg #custom-nav li a{
+  display: inline-block;
+}
+
+.m_bg #custom-nav li a{
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.m_bg #custom-nav li .jumpto-second {
+  background: rgba(0,102,193,0.6);
+  position: fixed;
+  top: 54px;
+  width: 100%;
+  left: 0px;
+}
+.m_bg .jumpto-subnav.fixed.bottom {
+  opacity: 1;
+}
+.m_bg .jumpto-subnav.fixed.bottom {
+  opacity: 0;
+}
