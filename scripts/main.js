@@ -70,7 +70,7 @@ function getTitle(num){
             titleid="使用攻略";
         }break;
         case "5":{
-            titleid="功能介绍";
+            titleid="功能特色";
         }break;
         case "6":{
             titleid="研发机构";
@@ -108,6 +108,22 @@ function getTitle(num){
         case "17":{
             titleid="培训师介绍";
         }break;
+        case "18":{
+            titleid="合作学校";
+        }break;
+        case "19":{
+            titleid="授权证书";
+        }break;
+        case "20":{
+            titleid="常见问题";
+        }break;
+        case "21":{
+            titleid="下载专区";
+        }break;
+        case "22":{
+            titleid="新闻中心";
+        }break;
+
         default :{
             titleid="Criterion";
         }

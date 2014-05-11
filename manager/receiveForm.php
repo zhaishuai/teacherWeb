@@ -28,7 +28,7 @@ switch ($q){
         $q="使用攻略";
     }break;
     case "5":{
-        $q="功能介绍";
+        $q="功能特色";
     }break;
     case "6":{
         $q="研发机构";
@@ -66,13 +66,27 @@ switch ($q){
     case "17":{
         $q="培训师介绍";
     }break;
-
+    case "18":{
+        $q="合作学校";
+    }break;
+    case "19":{
+        $q="授权证书";
+    }break;
+    case "20":{
+        $q="常见问题";
+    }break;
+    case "21":{
+        $q="下载专区";
+    }break;
+    case "22":{
+        $q="新闻中心";
+    }break;
     default :{
     $q="Criterion";
     }
 }
 
-if($q=="合作机构"){
+if($q=="授权证书"){
     $_POST["content"]=preg_replace("/<a\s([\s\S]*?)>/","",$_POST["content"]);
     $_POST["content"]=preg_replace("/<\/a>/","",$_POST["content"]);
     preg_match_all('/<td>(.*?)<\/td>/',$_POST["content"],$rs);

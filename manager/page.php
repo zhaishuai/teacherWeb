@@ -96,9 +96,11 @@ include_once '../login/checkA.php';
                     <li><a href="javascript:changetext('17')"><span>培训师介绍</span></a></li>
                 </ul>
             </li>
-            <li><a href="javascript:changetext('2')"><span>招聘精英</span></a></li>
-            <li><a href="javascript:changetext('3')"><span>合作机构</span></a>
+            <li><a href="javascript:changetext('2')"><span>招聘</span></a></li>
+            <li><a href="#"><span>合作机构</span></a>
                 <ul class="menu2">
+                    <li><a href="javascript:changetext('18')"><span>合作学校</span></a></li>
+                    <li><a href="javascript:changetext('19')"><span>授权证书</span></a></li>
                     <?php
                     include_once '../login/conn.php';
                     @mysql_select_db($database) or die('can not find database!');
@@ -110,15 +112,16 @@ include_once '../login/checkA.php';
                     ?>
                 </ul>
             </li>
-            <li><a href="javascript:changetext('4')" class="select"><span>使用攻略</span></a>
-            <ul class="menu2">
-                <li><a href="javascript:changetext('13')"><span>教师攻略</span></a></li>
-                <li><a href="javascript:changetext('14')"><span>学生攻略</span></a></li>
-            </ul>
-            </li>
-            <li><a href="javascript:changetext('5')"><span>功能介绍</span></a></li>
+            <li><a href="javascript:changetext('22')" class="select"><span>新闻中心</span></a></li>
+            <li><a href="javascript:changetext('5')"><span>功能特色</span></a></li>
             <li><a href="javascript:changetext('6')"><span>研发机构</span></a></li>
-            <li><a href="javascript:changetext('7')"><span>Criterion</span></a></li>
+            <li><a href="javascript:changetext('7')"><span>Criterion</span></a>
+                <ul class="menu2">
+                    <li><a href="javascript:changetext('4')"><span>使用攻略</span></a></li>
+                    <li><a href="javascript:changetext('20')"><span>常见问题</span></a></li>
+                    <li><a href="javascript:changetext('21')"><span>下载专区</span></a></li>
+                </ul>
+            </li>
             <li><a href="index.php"><span>密码管理</span></a></li>
         </ul>
       	<!--end menu-->

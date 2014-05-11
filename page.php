@@ -27,14 +27,23 @@
             //function getIposition(title){
             title = str;
             //document.getElementById('imageview').src="images/"+str+".jpg";
-            $(".p_banner").css("background","url(images/"+str+".jpg)");
-            if(title=="15"||title=="16"||title=="17"){
+            //$(".p_banner").css("background","url(images/"+str+".jpg)");
+            if(title=="20"||title=="21"){
+                $(".p_banner").css("background","url(images/7.jpg)");
+                document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('7')\">Criterion</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
+            }else if(title=="18"||title=="19"){
+                $(".p_banner").css("background","url(images/3.jpg)");
+                document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
+            }else if(title=="15"||title=="16"||title=="17"){
+                $(".p_banner").css("background","url(images/1.jpg)");
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('1')\">关于我们</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }else if(title=='13'||title=='14'){
+                $(".p_banner").css("background","url(images/"+str+".jpg)");
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('4')\">使用攻略</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }else if(title=='8'||title=='9'||title=='10'||title=='11'||title=='12'){
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('7')\">Criterion</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }else{
+                $(".p_banner").css("background","url(images/"+str+".jpg)");
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }
             //}
@@ -47,7 +56,6 @@
             }
             var url="gethint.php"
             url=url+"?q="+str
-            alert(url);
             url=url+"&sid="+Math.random()
             xmlHttp.onreadystatechange=stateChanged
             xmlHttp.open("GET",url,true)
@@ -90,16 +98,22 @@
                 </ul>
             </li>
             <li><a href="javascript:changetext('2')"><span>招聘精英</span></a></li>
-            <li><a href="page.php?i=3"><span>合作机构</span></a></li>
-            <li><a href="javascript:changetext('4')" class="select"><span>使用攻略</span></a>
+            <li><a href="page.php?i=3"><span>合作机构</span></a>
                 <ul class="menu2">
-                    <li><a href="javascript:changetext('13')"><span>教师攻略</span></a></li>
-                    <li><a href="javascript:changetext('14')"><span>学生攻略</span></a></li>
+                    <li><a href="javascript:changetext('18')"><span>合作学校</span></a></li>
+                    <li><a href="javascript:changetext('19')"><span>授权证书</span></a></li>
                 </ul>
             </li>
-            <li><a href="javascript:changetext('5')"><span>功能介绍</span></a></li>
+            <li><a href="javascript:changetext('22')" class="select"><span>新闻中心</span></a></li>
+            <li><a href="javascript:changetext('5')"><span>功能特色</span></a></li>
             <li><a href="javascript:changetext('6')"><span>研发机构</span></a></li>
-            <li><a href="javascript:changetext('7')"><span>Criterion</span></a></li>
+            <li><a href="javascript:changetext('7')"><span>Criterion</span></a>
+                <ul class="menu2">
+                    <li><a href="javascript:changetext('4')"><span>使用攻略</span></a></li>
+                    <li><a href="javascript:changetext('20')"><span>常见问题</span></a></li>
+                    <li><a href="javascript:changetext('21')"><span>下载专区</span></a></li>
+                </ul>
+            </li>
             <li><a href="http://www.headstart-edu.cn/"><span>首页</span></a></li>
         </ul>
         <!--end menu-->
@@ -134,7 +148,7 @@
                             <li><a href="javascript:changetext('14')">Criterion学生使用攻略</a></li>
                             <li><a href="">下载专区</a></li>
                             <li><a href="">常见问题</a></li>
-                            <li><a href="page.php?i=3">合作机构</a></li>
+                            <li><a href="#">合作机构</a></li>
                         </ul>
                         <img src="images/contact01.jpg"/>
                         <ul class="txt">
