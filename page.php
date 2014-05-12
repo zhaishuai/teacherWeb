@@ -28,7 +28,10 @@
             title = str;
             //document.getElementById('imageview').src="images/"+str+".jpg";
             //$(".p_banner").css("background","url(images/"+str+".jpg)");
-            if(title=="20"||title=="21"){
+            if(title=="22"){
+                $(".p_banner").css("background","url(images/2.jpg)");
+                document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
+            }else if(title=="20"||title=="21"){
                 $(".p_banner").css("background","url(images/7.jpg)");
                 document.getElementById("iPosition").innerHTML = "<a href='http://www.headstart-edu.cn/'>首页</a>&nbsp;&gt;&gt;&nbsp;<a href=\"javascript:changetext('7')\">Criterion</a>&nbsp;&gt;&gt;&nbsp;<a href='#'>"+getTitle(str)+"</a>";
             }else if(title=="18"||title=="19"){
@@ -90,7 +93,7 @@
 
         <ul class="menu f_r">
             <li><a href="javascript:changetext('0')"><span>联系我们</span></a></li>
-            <li><a href="javascript:changetext('1')"><span>关于我们</span></a>
+            <li><a href="javascript:changetext('1')"><span>关于开端</span></a>
                 <ul class="menu2">
                     <li><a href="javascript:changetext('15')"><span>开端介绍</span></a></li>
                     <li><a href="javascript:changetext('16')"><span>ETS授权开端</span></a></li>
@@ -143,12 +146,12 @@
                         <!--start text-->
                         <img src="images/xiezuo.jpg"/>
                         <ul class="txt">
-                            <li><a href="https://criterion.ets.org">Criterion登录</a></li>
-                            <li><a href="javascript:changetext('13')">Criterion教师使用攻略</a></li>
-                            <li><a href="javascript:changetext('14')">Criterion学生使用攻略</a></li>
-                            <li><a href="">下载专区</a></li>
-                            <li><a href="">常见问题</a></li>
-                            <li><a href="#">合作机构</a></li>
+                            <li><a href="https://criterion.ets.org/criterion/Default.aspx?ReturnUrl=%2fcriterion"><img  src="images/login.png"/>Criterion Login</a></li>
+                            <li><a href="javascript:changetext('21')"><img  src="images/download.png"/>下载专区</a></li>
+                            <li><a href="javascript:changetext('20')"><img  src="images/question.png"/>常见问题</a></li>
+                            <li><a href="javascript:changetext('18')"><img  src="images/coo.png"/>合作学校</a></li>
+                            <li><a href="javascript:changetext('13')"><img  src="images/teacher.png"/>Criterion教师快捷入门</a></li>
+                            <li><a href="javascript:changetext('14')"><img  src="images/student.png"/>Criterion学生快捷入门</a></li>
                         </ul>
                         <img src="images/contact01.jpg"/>
                         <ul class="txt">

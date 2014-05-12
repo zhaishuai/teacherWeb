@@ -27,7 +27,7 @@ $row = mysql_fetch_array($query);
 
         <ul class="menu f_r">
             <li><a href="page.php?i=0"><span>联系我们</span></a></li>
-            <li><a href="page.php?i=1"><span>关于我们</span></a>
+            <li><a href="page.php?i=1"><span>关于开端</span></a>
                 <ul class="menu2">
                     <li><a href="page.php?i=15"><span>开端介绍</span></a></li>
                     <li><a href="page.php?i=16"><span>ETS授权开端</span></a></li>
