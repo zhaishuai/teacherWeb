@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5870c9-9b25-4f9d-9c79-c0eadea76747" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/cooperation.php" afterPath="$PROJECT_DIR$/manager/cooperation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cssreset.css" afterPath="$PROJECT_DIR$/css/cssreset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/page.php" afterPath="$PROJECT_DIR$/manager/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pagecooperation.php" afterPath="$PROJECT_DIR$/pagecooperation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/pagecooperation.php" afterPath="$PROJECT_DIR$/manager/pagecooperation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/receiveForm.php" afterPath="$PROJECT_DIR$/manager/receiveForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7a5870c9-9b25-4f9d-9c79-c0eadea76747" name="Default" comment="" />
     <ignored path="teacherWeb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +25,7 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="27" selection-start="5812" selection-end="5812" vertical-scroll-proportion="0.33864543" vertical-offset="1496" max-vertical-offset="4403">
+            <state line="129" column="23" selection-start="6972" selection-end="6972" vertical-scroll-proportion="0.9256308" vertical-offset="1496" max-vertical-offset="4403">
               <folding />
             </state>
           </provider>
@@ -413,7 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="27" selection-start="5812" selection-end="5812" vertical-scroll-proportion="0.33864543" vertical-offset="1496" max-vertical-offset="4403">
+        <state line="129" column="23" selection-start="6972" selection-end="6972" vertical-scroll-proportion="0.9256308" vertical-offset="1496" max-vertical-offset="4403">
           <folding />
         </state>
       </provider>
