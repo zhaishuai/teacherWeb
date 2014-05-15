@@ -85,7 +85,7 @@ switch ($q){
     $q="Criterion";
     }
 }
-
+echo $q;
 if($q=="授权证书"){
     $_POST["content"]=preg_replace("/<a\s([\s\S]*?)>/","",$_POST["content"]);
     $_POST["content"]=preg_replace("/<\/a>/","",$_POST["content"]);
@@ -103,12 +103,11 @@ if($q=="授权证书"){
     mysql_query($sql);
     $count = 1;
     foreach($rs[0] as $t){
-        $t = str_replace("&nbsp;","",$t);
         $t = preg_replace("/<td>/","",$t);
         $t = preg_replace("/<\/td>/","",$t);
-        $t = preg_replace("/ /","",$t);
         mysql_query("INSERT INTO cooperationList (id, title) VALUES  ('".$count."','".$t."');");
-        $_POST["content"] = preg_replace("/".$t."/","<a href=\"pagecooperation.php?id=".$count."\">".$t."</a>",$_POST["content"]);
+        $_POST["content"] = str_replace($t,"&nbsp;&nbsp;<a href=\"pagecooperation.php?id=".$count."\">".$t."</a>",$_POST["content"]);
+        //echo $_POST["content"];
         $count++;
         //echo $t;
     }

@@ -96,14 +96,14 @@
             <li><a href="javascript:changetext('1')"><span>关于开端</span></a>
                 <ul class="menu2">
                     <li><a href="javascript:changetext('15')"><span>开端介绍</span></a></li>
-                    <li><a href="javascript:changetext('16')"><span>ETS授权开端</span></a></li>
-                    <li><a href="javascript:changetext('17')"><span>培训师介绍</span></a></li>
+                    <li><a href="javascript:changetext('16')"><span>ETS授权证书</span></a></li>
+                    <li><a href="javascript:changetext('17')"><span>培训师</span></a></li>
                 </ul>
             </li>
             <li><a href="javascript:changetext('2')"><span>招聘精英</span></a></li>
-            <li><a href="page.php?i=3"><span>合作机构</span></a>
+            <li><a href="18"><span>合作机构</span></a>
                 <ul class="menu2">
-                    <li><a href="javascript:changetext('18')"><span>合作学校</span></a></li>
+                    <li><a href="javascript:changetext('18')"><span>机构名称</span></a></li>
                     <li><a href="javascript:changetext('19')"><span>授权证书</span></a></li>
                 </ul>
             </li>
@@ -144,14 +144,13 @@
 
 
                         <!--start text-->
-                        <img src="images/xiezuo.jpg"/>
+                        <a href="https://criterion.ets.org/criterion/Default.aspx?ReturnUrl=%2fcriterion"><img src="images/login.jpg"/></a>
                         <ul class="txt">
-                            <li><a href="https://criterion.ets.org/criterion/Default.aspx?ReturnUrl=%2fcriterion"><img  src="images/login.png"/>Criterion Login</a></li>
-                            <li><a href="javascript:changetext('21')"><img  src="images/download.png"/>下载专区</a></li>
-                            <li><a href="javascript:changetext('20')"><img  src="images/question.png"/>常见问题</a></li>
-                            <li><a href="javascript:changetext('18')"><img  src="images/coo.png"/>合作学校</a></li>
                             <li><a href="javascript:changetext('13')"><img  src="images/teacher.png"/>Criterion教师快捷入门</a></li>
                             <li><a href="javascript:changetext('14')"><img  src="images/student.png"/>Criterion学生快捷入门</a></li>
+                            <li><a href="javascript:changetext('20')"><img  src="images/question.png"/>常见问题</a></li>
+                            <li><a href="javascript:changetext('21')"><img  src="images/download.png"/>下载专区</a></li>
+
                         </ul>
                         <img src="images/contact01.jpg"/>
                         <ul class="txt">

@@ -63,7 +63,7 @@ include_once '../login/checkA.php';
                     // PUT PLUGIN'S BUTTON on the toolbar
                     // ===========================================
 
-                    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image jbimages",
+                    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image jbimages | styleselect formatselect fontselect fontsizeselect",
 
                     // ===========================================
                     // SET RELATIVE_URLS to FALSE (This is required for images to display properly)
@@ -92,14 +92,15 @@ include_once '../login/checkA.php';
             <li><a href="javascript:changetext('1')"><span>关于我们</span></a>
                 <ul class="menu2">
                     <li><a href="javascript:changetext('15')"><span>开端介绍</span></a></li>
-                    <li><a href="javascript:changetext('16')"><span>ETS授权开端</span></a></li>
+                    <li><a href="javascript:changetext('16')"><span>ETS授权证书</span></a></li>
                     <li><a href="javascript:changetext('17')"><span>培训师介绍</span></a></li>
                 </ul>
             </li>
             <li><a href="javascript:changetext('2')"><span>招聘</span></a></li>
             <li><a href="#"><span>合作机构</span></a>
                 <ul class="menu2">
-                    <li><a href="javascript:changetext('18')"><span>合作学校</span></a></li>
+                    <li><a href="javascript:changetext('18')"><span>机构名称
+                            </span></a></li>
                     <li><a href="javascript:changetext('19')"><span>授权证书</span></a></li>
                     <?php
                     include_once '../login/conn.php';

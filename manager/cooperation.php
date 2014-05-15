@@ -84,15 +84,15 @@ preg_match_all('/<td>(.*?)<\/td>/',$content,$rs);
 
 //$count = 0;
 foreach($rs[0] as $t){
-    $t = str_replace("&nbsp;","",$t);
+    //$t = str_replace("&nbsp;","",$t);
     $t = preg_replace("/<td>/","",$t);
     $t = preg_replace("/<\/td>/","",$t);
-    $t = preg_replace("/ /","",$t);
+    //$t = preg_replace("/ /","",$t);
 //    //mysql_query("INSERT INTO cooperationList (id, title) VALUES  ('".$count."','".$t."');");
-    $content = preg_replace("/".$t."/","<a href='gog?id=".$count."'>".$t."</a>",$content);
+    $content = str_replace($t,"<a href='gog?id=".$count."'>".$t."</a>",$content);
 //
     $count++;
-    //echo $t;
+    echo $t;
 }
   echo $content;
 
